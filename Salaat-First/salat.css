@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  font-family: 'Almarai', sans-serif;
+}
+
+.slider {
+  width: 100%;
+  height: 30%;
+}
+
+.slider > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.textContainer .day {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: rgb(14, 17, 17);
+}
+
+.textContainer ul {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.textContainer ul li {
+  padding: 0 1rem;
+  list-style-type: none;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.fa-solid {
+  color: yellow;
+  font-size: 1.2rem;
+  transform: rotate(-45deg);
+  margin-right: 0.4rem;
+}
+
+.textContainer .dayHadith {
+  margin-top: 1rem;
+  background-color: rgb(14, 17, 17);
+  width: 80%;
+}
+
+.textContainer .dayHadith h3 {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgb(11, 14, 14);
+}
+
+.textContainer .dayHadith p {
+  text-align: justify;
+  padding: 1rem;
+  line-height: 1.6rem;
+}
+
+
+@media screen and (max-width:480px) {
+    .textContainer{
+        width: 100%;
+    }
+}
