@@ -119,7 +119,7 @@
           <mxGeometry x="37.5" y="430" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hZAp_NnM1Y1J12ZBTNoi-114" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Genre&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="235" y="480" width="120" height="120" as="geometry" />
+          <mxGeometry x="240" y="480" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hZAp_NnM1Y1J12ZBTNoi-115" value="&lt;u&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;code&lt;/font&gt;&lt;/u&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="hZAp_NnM1Y1J12ZBTNoi-114" vertex="1">
           <mxGeometry x="10" y="30" width="50" height="30" as="geometry" />
